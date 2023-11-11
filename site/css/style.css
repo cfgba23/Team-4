@@ -274,7 +274,7 @@ p [style*='max-width'] {
 }
 
 ::selection {
-	background: #7FBC4E;
+	background: #973aa8;
 	color: #ffffff;
 }
 
@@ -1463,7 +1463,7 @@ img {
 }
 
 .icon-primary {
-	color: #7FBC4E;
+	color: #deaaff;
 }
 
 .icon-secondary {
@@ -1766,8 +1766,8 @@ hr {
 
 .button-primary, .button-primary:focus {
 	color: #ffffff;
-	background-color: #7FBC4E;
-	border-color: #7FBC4E;
+	background-color: #973aa8;
+	border-color: #973aa8;
 }
 
 .button-primary:hover, .button-primary:active {
@@ -5655,7 +5655,7 @@ html:not(.lt-ie10) .not-animated {
 	line-height: 56px;
 	color: #ffffff;
 	overflow: hidden;
-	background: #7FBC4E;
+	background: #973aa8;
 	border-radius: 5px;
 	text-align: center;
 	text-decoration: none;
@@ -6652,7 +6652,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-nav-item:hover .rd-nav-link, .rd-navbar-fixed .rd-nav-item.focus .rd-nav-link, .rd-navbar-fixed .rd-nav-item.active .rd-nav-link, .rd-navbar-fixed .rd-nav-item.opened .rd-nav-link {
 	color: #ffffff;
-	background: #7FBC4E;
+	background: #973aa8;
 }
 
 .rd-navbar-fixed .rd-nav-item:hover > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.opened > .rd-navbar-submenu-toggle {
