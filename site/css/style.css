@@ -1392,7 +1392,7 @@ ul.social-list > * {
 
 ul.social-list a:hover {
 	color: #ffffff;
-	background: #7FBC4E;
+	background: #973aa8;
 }
 
 .category-list > li + li {
@@ -5923,21 +5923,21 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-nav-item.focus .rd-nav-link, .rd-navbar-static .rd-nav-item.opened .rd-nav-link {
-	color: #7FBC4E;
+	color: #973aa8;
 	background: transparent;
 }
 
 .rd-navbar-static .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static .rd-nav-item.opened > .rd-navbar-submenu-toggle {
-	color: #7FBC4E;
+	color: #973aa8;
 }
 
 .rd-navbar-static .rd-nav-item.active .rd-nav-link {
-	color: #7FBC4E;
+	color: #973aa8;
 	background: transparent;
 }
 
 .rd-navbar-static .rd-nav-item.active > .rd-navbar-submenu-toggle {
-	color: #7FBC4E;
+	color: #973aa8;
 }
 
 .rd-navbar-static .rd-nav-item.focus > .rd-navbar-submenu-toggle::before,
@@ -6677,7 +6677,7 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-dropdown > li.active > a,
 .rd-navbar-fixed .rd-navbar-dropdown > li.opened > a {
 	color: #ffffff;
-	background: #7FBC4E;
+	background: #973aa8;
 }
 
 .rd-navbar-fixed .rd-navbar-megamenu .rd-megamenu-title {
@@ -6693,7 +6693,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-megamenu .rd-megamenu-title a:hover {
-	color: #7FBC4E;
+	color: #973aa8;
 }
 
 .rd-navbar-fixed .rd-navbar-submenu-toggle {
