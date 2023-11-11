@@ -138,7 +138,7 @@
             <div class="col-md-6 col-lg-4 wow-outer">
               <div class="wow fadeInUp">
                 <article class="box-causes">
-                  <div class="box-causes-img"><img src="images/causes-04-372x396.jpg" alt="" width="372" height="396"/><a class="button button-sm button-primary" href="#">Crear</a>
+                  <div class="box-causes-img"><img src="images/causes-04-372x396.jpg" alt="" width="372" height="396"/><a class="button button-sm button-primary" href="#" id="crear">Crear</a>
                   </div>
                   <h4 class="font-weight-medium"><a href="#">Festeja Tu cumpleaños</a></h4>
                   <p class="box-causes-donate"><span>Festeja tu cumpleaños invitando a donar a tus amigos y ayudar a mas niños</span> raised
@@ -226,6 +226,30 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-    <!-- coded by ragnar-->
+
+    <script>
+      document.getElementById('crear').addEventListener('click', async function() {
+        const apiUrl = 'http://localhost:8080/api/campaign/create';
+        const postData = {
+          description:"mi campaña",
+          name:"tomas",
+          totalAmount:100000,
+          campaignType:"PRIVATE"
+        };
+
+        await fetch(apiUrl, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(postData)
+        })
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(error => console.error('Error:', error));
+
+      });
+    </script>
   </body>
 </html>
